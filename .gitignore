@@ -1,0 +1,4 @@
+node_modules/
+.npmglobal/
+dist/
+npm-debug.log
