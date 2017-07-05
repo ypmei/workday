@@ -77,9 +77,10 @@ function countTime(data,type){
     if(dayTotal){
       if(type==='day'){
         g[g.length-1][16] = dayTotal
+        g[g.length-1][17] = format.hourVal(dayTotal)
       }else{
-        g[g.length-1][17] = dayTotal
-        g[g.length-1][18] = format.hourVal(dayTotal)
+        g[g.length-1][18] = dayTotal
+        g[g.length-1][19] = format.hourVal(dayTotal)
       }
     }
     result = result.concat(g)
